@@ -1,0 +1,59 @@
+.card img {
+   width: 100%;
+}
+
+.card {
+    border: solid 2px var(--color-primary);
+    overflow: hidden;
+    transition: var(--transition);
+}
+
+.card-back {
+    background-color: #fff;
+    transform: perspective(200px);
+}
+
+.card-front {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-primary-variant);
+}
+
+
+.card-icon {
+    font-size: 3rem;
+    color: #b19d9d;
+    transition: var(--transition);
+}
+
+
+.card-front:hover {
+    background-color: var(--color-primary);
+}
+
+.card-front:hover .card-icon {
+    color: #fff;
+}
+
+.matched {
+    background-color: var(--color-bg);
+    /* border: solid 2px var(--color-primary); */
+    box-shadow: 1px 0px 4px var(--color-primary);
+}
+
+@keyframes flip {
+    from {
+        transform: rotate3d(0deg, 0deg, 0deg);
+    }
+    to {
+        transform: rotateY(90deg);
+    }
+}
+
+.back-show {
+    transform: scale(1.05);
+    animation: flip 300ms linear; 
+}
+
+

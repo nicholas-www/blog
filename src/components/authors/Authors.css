@@ -1,0 +1,56 @@
+.authors h1 {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.authors .author-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    place-items: center;
+    padding: 3rem;
+}
+
+.authors img {
+    width: 15rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    /* margin: auto; */
+}
+
+.authors .author {
+    background-color: #b5b5b52e;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    width: 100%;
+    border: solid 1px #b5b5b52e;
+    transition: var(--transition);
+}
+
+.authors .author:hover {
+    background-color: transparent;
+}
+
+.authors h2 {
+    font-size: 2rem;
+}
+
+.authors p {
+    font-size: 1.3rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .authors .author-list {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 430px) {
+  .authors .author-list {
+    grid-template-columns: 1fr;
+  }
+}

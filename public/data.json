@@ -1,0 +1,133 @@
+{
+  "authors": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "bio": "A passionate web developer specializing in React.",
+      "avatar": "/images/authors/john-doe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "bio": "Tech enthusiast and full-stack developer.",
+      "avatar": "/images/authors/jane-smith.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alex Brown",
+      "bio": "UI/UX designer turned front-end engineer.",
+      "avatar": "/images/authors/alex-brown.png"
+    },
+    {
+      "id": 4,
+      "name": "Jack Allen",
+      "bio": "Ghraphic Designer.",
+      "avatar": "/images/authors/jack-allen.jpg"
+    }
+  ],
+
+  "posts": [
+    {
+      "id": 1,
+      "title": "Top Gaming Trends in 2024",
+      "authorId": 2,
+      "date": "2024-12-01",
+      "content": "The gaming industry is evolving rapidly, with trends like cloud gaming, VR, and AI-driven games dominating the scene...",
+      "caption": "Discover the latest innovations shaping the gaming world.",
+      "coverImage": "/images/posts/gaming-trends.jpg",
+      "postImage": "/images/posts/vr-gaming.jpg"
+    },
+    {
+      "id": 2,
+      "title": "The Future of Communication",
+      "authorId": 3,
+      "date": "2024-12-02",
+      "content": "Communication technologies like 5G, AR, and virtual meetings are revolutionizing how we connect globally...",
+      "caption": "How tech is bridging communication gaps like never before.",
+      "coverImage": "/images/posts/communication-future.webp",
+      "postImage": "/images/posts/virtual-meetings.jpg"
+    },
+    {
+      "id": 3,
+      "title": "AI-Powered Tools in Web Development",
+      "authorId": 1,
+      "date": "2024-12-03",
+      "content": "Artificial Intelligence is transforming web development, from automating tasks to enhancing user experiences...",
+      "caption": "Explore how AI is reshaping web development.",
+      "coverImage": "/images/posts/ai.png",
+      "postImage": "/images/posts/ai-coding.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Building a Custom Gaming PC",
+      "authorId": 2,
+      "date": "2024-12-04",
+      "content": "Building your own gaming PC can be an exciting and rewarding experience, tailored to your specific needs...",
+      "caption": "Step-by-step guide to crafting your perfect gaming rig.",
+      "coverImage": "/images/posts/gaming-pc.jpg",
+      "postImage": "/images/posts/gaming-pc.jpg"
+    },
+    {
+      "id": 5,
+      "title": "5G and Its Impact on IoT",
+      "authorId": 3,
+      "date": "2024-12-05",
+      "content": "The advent of 5G is supercharging IoT devices, enabling faster, smarter, and more reliable connections...",
+      "caption": "The game-changing effects of 5G on smart devices.",
+      "coverImage": "/images/posts/5G.jpg",
+      "postImage": "/images/posts/iot-devices.jpg"
+    },
+    {
+      "id": 6,
+      "importance": "hero",
+      "title": "Esports: The Rise of Competitive Gaming",
+      "authorId": 2,
+      "date": "2024-12-06",
+      "content": "Esports has become a global phenomenon, with players and teams reaching new heights of fame and skill...",
+      "caption": "Dive into the fast-growing world of competitive gaming.",
+      "coverImage": "/images/posts/esports.jpg",
+      "postImage": "/images/posts/competitive-gaming.jpg"
+    },
+    {
+      "id": 7,
+      "importance": "featured",
+      "title": "How Blockchain is Changing the Internet",
+      "authorId": 1,
+      "date": "2024-12-07",
+      "content": "Blockchain technology is creating a decentralized internet, offering more security and transparency...",
+      "caption": "Unpacking blockchain's potential to reshape the web.",
+      "coverImage": "/images/posts/blockchain.jpeg",
+      "postImage": "/images/posts/blockchain.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Cloud Gaming Platforms: Are They the Future?",
+      "authorId": 3,
+      "date": "2024-12-08",
+      "content": "Cloud gaming platforms like Xbox Cloud Gaming and GeForce Now are making high-end gaming accessible...",
+      "caption": "A look at how cloud gaming is redefining accessibility.",
+      "coverImage": "/images/posts/cloud-gaming.png",
+      "postImage": "/images/posts/gaming-cloud.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Tech Innovations in Wearable Devices",
+      "authorId": 2,
+      "date": "2024-12-09",
+      "content": "Wearable tech is more advanced than ever, from health monitoring to augmented reality glasses...",
+      "caption": "See how wearables are integrating seamlessly into our lives.",
+      "coverImage": "/images/posts/wearable.jpeg",
+      "postImage": "/images/posts/smart-wearables.jpg"
+    },
+    {
+      "id": 10,
+      "title": "The Role of Quantum Computing in Cybersecurity",
+      "authorId": 1,
+      "date": "2024-12-10",
+      "content": "Quantum computing is poised to revolutionize cybersecurity by breaking traditional encryption models...",
+      "caption": "How quantum computing is reshaping data security.",
+      "coverImage": "/images/posts/quantum-computing.jpg",
+      "postImage": "/images/posts/quantum-computing.jpg"
+    }
+  ]
+}

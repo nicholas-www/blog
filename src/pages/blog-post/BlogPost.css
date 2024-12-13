@@ -1,0 +1,117 @@
+.blog-post {
+    margin-top: 10vh;
+    padding: 5rem 10rem;
+}
+
+.blog-post .author-profile {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.author-profile img {
+    width: 8rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+}
+
+.author-profile h2 {
+    font-size: 2rem;
+}
+
+.author-profile .name p {
+    font-size: 1.5rem;
+    color: #808080;
+}
+
+.blog-post h1 {
+    font-size: 5rem;
+    margin: 2rem 0;
+}
+
+.blog-post .post-image{
+    width: 100%;
+    height: 50rem;
+    padding: 3rem;
+}
+
+.blog-post .post-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.blog-post p {
+    font-size: 1.8rem;
+    line-height: 2;
+}
+
+.post-content {
+    margin: 5rem auto;
+    text-align: justify;
+}
+
+.recommendation {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.recommendation img {
+    width: 100%;
+}
+
+.recommendation h1 {
+    font-size: 2.5rem;
+}
+
+.blog-post h2 {
+    font-size: 2.2rem;
+    padding: 2rem 0;
+}
+
+@media screen and (max-width: 900px) {
+    .blog-post {
+        padding: 2rem;
+    }
+
+    .recommendation {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .recommendation a img {
+        display: block;
+    }
+}
+
+
+@media screen and (max-width: 600px) {
+    .post-content p {
+        font-size: 1.5rem;
+    }
+
+    .post-header h1 {
+        font-size: 3rem;
+    }
+
+    .author-profile .name p {
+        font-size: 1.3rem;
+    }
+
+    .recommendation {
+        grid-template-columns: 1fr;
+    }
+
+    .author-profile h2 {
+        font-size: 1.8rem;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .recommendation h1 {
+        font-size: 2rem;
+    }
+
+    .recommendation img {
+        height: 20rem;
+    }
+}

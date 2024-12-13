@@ -1,0 +1,59 @@
+header.hero {
+    background-size: cover;
+    background-blend-mode: saturation;
+    margin-top: 10vh;
+    display: flex;
+    height: fit-content;
+}
+ 
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10rem 2rem;
+    color: #fff;
+}
+
+.hero h1 {
+    font-size: 5.5rem;
+    color: #fff;
+}
+
+.hero .info {
+    font-size: 2rem;
+    display: flex;
+    gap: 1rem;
+}
+
+.hero .author {
+    color: var(--color-primary);
+    border-right: solid 2px;
+    padding-right: 2rem;
+}
+
+.hero .caption {
+    font-size: 1.8rem;
+}
+
+.hero .btn {
+    width: fit-content;
+}
+
+@media screen and (max-width: 800px) {
+    .hero h1 {
+        font-size: 3.5rem;
+    }
+
+    header {
+        padding: 2rem;
+    }
+
+    .hero .info {
+        font-size: 1.7rem;
+    }
+
+    .hero .caption {
+        font-size: 1.5rem;
+    }
+}

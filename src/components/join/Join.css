@@ -1,0 +1,25 @@
+.join h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 2rem 0;
+    text-transform: capitalize;
+}
+
+.join p {
+    text-align: center;
+    font-size: 1.6rem;
+    padding: 1rem 4rem;
+    width: 70%;
+    margin: auto;
+}
+
+.join .btn {
+    margin: auto;
+}
+
+@media  (max-width: 800px) {
+    .join p {
+        width: 90%;
+        padding: 1rem;
+    }
+}

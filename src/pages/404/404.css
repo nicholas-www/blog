@@ -1,0 +1,19 @@
+.not-found {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.not-found h1 {
+    font-size: 7rem;
+}
+
+.not-found h2 {
+    font-size: 4rem;
+}
+
+.not-found .btn {
+    width: 20rem;
+    margin: 2rem auto;
+}

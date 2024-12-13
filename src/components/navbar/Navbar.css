@@ -1,0 +1,96 @@
+nav {
+    background-color: var(--color-dark);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 10vh;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+    height: 100%;
+}
+
+nav .btn:hover {
+    background-color: transparent;
+    color: #fff;
+    border: #fff solid 2px;
+}
+
+.navlinks {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.navlinks .link {
+    color: #fff;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.link.active {
+    font-size: 2rem;
+}
+
+.link.active::before {
+    content: '';
+    width: 1rem;
+    height: 1rem;
+    border-radius: 100%;
+    background-color: #fff;
+    display: block;
+}
+
+.close, .open {
+    color: #fff;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+
+@keyframes slide {
+    from {
+        right: -100%;
+    } to {
+        right: 0%;
+    }
+}
+
+.nav-menu {
+    animation: slide 300ms forwards linear;
+}
+
+@media screen and (max-width: 900px) {
+    .navlinks {
+        position: absolute;
+        right: -100%;
+        top: 0;
+        flex-direction: column;
+        gap: 4rem;
+        background-color: var(--color-dark);
+        padding: 5rem 4rem;
+        height: 100vh;
+    }
+
+    .logo {
+        font-size: 2rem;
+    }
+
+    .navlinks .link {
+        font-size: 2rem;
+        margin: 2rem 0;
+    }
+
+    .close, .open {
+        display: block;
+    }
+}

@@ -1,38 +1,22 @@
 import React from 'react'
-import './Home.css'
-
-// Images
-import apple from '../../assets/assets/apple.png'
-import watermelon from '../../assets/assets/watermelon.png'
-import banana from '../../assets/assets/banana.png'
-import orange from '../../assets/assets/orange.png'
-import { Link } from 'react-router-dom'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGear, faPlay } from '@fortawesome/free-solid-svg-icons'
+import Hero from '../../components/hero/Hero'
+import Posts from '../../components/posts/Posts'
+import Authors from '../../components/authors/Authors'
+import Join from '../../components/join/Join'
 
 const Home = () => {
   return (
-    <div className='container home'>
-       
-        <h1 className="logo">
-            <span className='primary'>memory</span>
-             <span className='secondary'>game</span>
-        </h1>
+    <main>
+      <div className="container">
+        <Hero/>
+        <Posts/>
 
-        <div className="images">
-            <img src={apple} alt="" />
-            <img src={watermelon} alt="" />
-            <img src={banana} alt="" />
-            <img src={orange} alt="" />
-        </div>
-
-        <div className="buttons">
-            <Link to={'/game'} className='btn btn-primary'>
-            play <FontAwesomeIcon icon={faPlay} className='icon'/>
-            </Link>
-
-        </div>
-    </div>
+        <div className="line"><div className="link"></div><div className="dark"></div><div className="primary"></div></div>
+        
+        <Authors/>
+        <Join/>
+      </div>
+    </main>
   )
 }
 

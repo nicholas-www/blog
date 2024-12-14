@@ -15,6 +15,11 @@ section.featured h1 {
     font-size: 5rem;
 }
 
+section.featured img {
+    width: 100%;
+    aspect-ratio: 2/1;
+}
+
 section.featured .caption {
     font-size: 1.7rem;
     color: #808080;
@@ -48,8 +53,6 @@ a .image {
 }
 
 a img {
-    /* width: 100%; */
-    /* aspect-ratio: 1/1; */
     width: 40rem;
     height: 30rem;
 }
@@ -65,10 +68,6 @@ a img {
 }
 
 @media screen and (max-width: 750px) {
-    section.featured img {
-        height: 80%;
-    }
-    
     section.featured h1 {
         font-size: 4rem;
     }
@@ -100,11 +99,15 @@ a img {
         width: 100%;
     }
 
-    a .image {
-        display: none;
+    .all-posts a {
+        /* display: none; */
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     a img {
-        display: none;
+        /* display: none; */
+        width: 100%;
+        aspect-ratio: 16/9;
     }
 }
